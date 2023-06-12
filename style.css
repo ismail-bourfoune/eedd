@@ -1,0 +1,284 @@
+:root {
+    --dark-color: #19283F;
+    --green-color: #00a5a5;
+    --red-color: #e50043;
+    --section-color: #eff7fa;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+
+/* Start Header */
+hr {
+    width: 100%;
+    height: 2px;
+}
+header {
+    width: 100%;
+    background-color: #fff;
+}
+header h6 {
+    background-color: var(--green-color);
+}
+.sticky-top {
+    background-color: #fff;
+}
+.navbar .objs {
+    float: left;
+}
+.in {
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+.in:hover {
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.up {
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+.up:hover {
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+.navbar input:focus {
+    border: none;
+    outline: none;
+}
+.navbar .search {
+    margin-left: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+.navbar .search-btn {
+    border: 1px solid var(--green-color);
+    border-radius: 60px;
+    background-color: #fff;
+    color: var(--green-color);
+}
+.navbar .search-btn:hover {
+    background-color: var(--green-color);
+    color: #fff;
+}
+.navbar input[type="submit"] {
+    color: #fff;
+    background-color: var(--red-color);
+    border: 2px solid var(--red-color);
+}
+.navbar input[type="submit"]:hover {
+    border: 2px solid var(--red-color);
+    color: var(--red-color);
+    background-color: #fff;
+}
+.cover {
+    background-image: url(images/header.jpg);
+    width: 100%;
+    height: calc(100vh / 2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.cover .overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+}
+.cover h1 {
+    text-transform: uppercase;
+    font-size: 64px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 50px;
+}
+.cover p {
+    width: 750px;
+    font-size: 24px;
+    margin: 0 auto;
+    color: #fff;
+}
+header #eedd {
+    height: 50px;
+    line-height: 50px;
+}
+header #eedd span {
+    font-weight: bold;
+}
+#ee {
+    color: var(--green-color);
+}
+#dd {
+    color: var(--green-color);
+}
+/* .cover {
+    background-color: #e9ecef;
+    height: calc(100vh - 100px);
+} */
+
+/* End Header */
+
+/* Start Donation  */
+.donation {
+    /* height: 100vh; */
+}
+.donation .card{
+    width: 100%;
+}
+.donation .card h5{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--green-color);
+}
+.donation .card img{
+    /* width: 500px; */
+    height: 300px; 
+}
+.donation input[type="submit"] {
+    border: 2px solid var(--red-color);
+    color: var(--red-color);
+    background-color: #fff;
+}
+.donation input[type="submit"]:hover {
+    color: #fff;
+    background-color: var(--red-color);
+    border: 2px solid var(--red-color);
+}
+/* End Donation  */
+
+/* Start Projects */
+.projects {
+    background-color: var(--section-color);
+}
+.projects h2 {
+    color: var(--green-color);
+} 
+.projects .p {
+    width: 600px;
+    margin: 0 auto;
+} 
+.projects img {
+    width: 100%;
+    height: 150px;
+}
+.projects .box {
+    height: 300px;
+    background-color: var(--section-color);
+}
+.projects .box h5 {
+    color: #000;
+    font-weight: bold;
+}
+.projects .btn {
+    border: 2px solid var(--green-color);
+    background-color: var(--green-color);
+    color: #fff;
+}
+.projects .btn:hover {
+    border: 2px solid var(--green-color);
+    background-color: #fff;
+    color: var(--green-color);
+}
+/* End Projects */
+
+/* Start Partners  */
+.partners {
+    /* height: 200px; */
+    background-color: #fff;
+    text-align: center;
+}
+.partners h3 {
+    text-transform: capitalize;
+    color: var(--green-color);
+}
+.partners .img1 {
+    margin: 0px 10px;
+    width: 50px;
+    display: inline-block;
+}
+.partners .img2 {
+    margin: 15px 10px;
+    width: 100px;
+    display: inline-block;
+}
+.partners img {
+    width: 100%;
+}
+/* End Partners  */
+
+/* Start subscribe */
+.subscribe {
+    background-color: var(--green-color);
+}
+.subscribe .fw-bold {
+    font-size: larger;
+    font-weight: bold;
+    color: #fff;
+}
+.subscribe input[type="text"] {
+    border: none;
+    border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus {
+    outline: none;
+}
+.subscribe ::placeholder {
+    color: white;
+}
+.subscribe input[type="submit"] {
+    color: #fff;
+    background-color: var(--red-color);
+}
+.subscribe input[type="submit"]:hover {
+    border: 2px solid var(--red-color);
+    color: var(--red-color);
+    background-color: #fff;
+}
+/* End subscribe */
+
+/* Start Footer */
+footer {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+footer a:hover {
+    color: white;
+}
+footer ul li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+footer ul li a {
+    color: #fff;
+}
+/* End Footer */
+
+.objectifs a {
+    border: 2px solid white; 
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 15px 5px 15px;
+    border-radius: 30px;
+}
+.objectifs a:hover {
+    background-color: #fff;
+    color: var(--green-color);
+}
+
+
+
+.blurActive{
+    filter: blur(5px);
+}
+
+.blurNotActive{
+    filter: blur(0px) !important;
+}
